@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+
+<header>
+<div class="w3-container">
+<img src="cate_logo.png" class="w3-rounded" alt=" A navy blue stylised winking dogs face with one up and one down ear. It is holding a diploma and has a graduation cap on." style="width:8%">
+<div class="w3-dropdown-hover">
+<button class="w3-button"> I am ... </button>
+<div class="w3-dropdown-content w3-bar-block w3-border">
+	<a href="#" class="w3-bar-item w3-button"> A member of the public</a>
+	<a href="#" class="w3-bar-item w3-button"> Disabled and would like an assistance dog</a>
+	<a href="#" class="w3-bar-item w3-button"> An Assistance Dog Handler</a>
+	<a href="#" class="w3-bar-item w3-button"> A buisness or service provider</a>
+	<a href="#" class="w3-bar-item  w3-button">Interested in CATE</a>
+	</div>
+</div>
+<h class="w3-xlarge"> Disabled and would like an assistance dog</h>
+<div class="w3-container w3-right w3-xlarge" style="width:px"> Canine Access To Education</div>
+
+<div class="w3-tag w3-white w3-right w3-rounded w3-large">Follow us on social media</div>
+</div>
+
+<div class="w3-bar w3-indigo">
+<a class="w3-bar-item w3-button" style="width:20%"> Home </a>
+
+<div class="w3-dropdown-hover" style="width:20%">
+	<button class="w3-button">
+		What's an Assistance Dog? <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">Definition</a>
+		<a href="#" class="w3-bar-item w3-button">Terminology</a>
+		<a href="#" class="w3-bar-item w3-button">Test 3</a>
+		
+		</div>
+</div>
+<div class="w3-dropdown-hover" style="width:20%">
+	<button class="w3-button">
+		Getting an Assistance Dog <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">Types of training</a>
+		<a href="#" class="w3-bar-item w3-button">Common Breeds</a>
+		<a href="#" class="w3-bar-item w3-button">Training 'standards'</a>
+		
+		</div>
+</div>
+<div class="w3-dropdown-hover" style="width:20%">
+	<button class="w3-button">
+		Organisation List <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">How to use</a>
+		<a href="index.html" class="w3-bar-item w3-button">The List</a>
+		
+		
+		</div>
+		</div>
+
+<div class="w3-dropdown-hover" style="width:20%">
+	<button class="w3-button">
+		Misconceptions <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">General</a>
+		<a href="#" class="w3-bar-item w3-button">Information on ESAs</a>
+		<a href="#" class="w3-bar-item w3-button">Test</a>
+		
+		</div>
+</div>
+
+</div>
+</header>
+<body>
+<div class="w3-container w3-padding w3-margin">
+<h1>How to use the organisation list</h1>
+<b>Last updated: 25/02/21</b>
+
+<p> This is an 'How to use' page on CATE's organisation list which explains how the list is catergorised</p>
+<p>The organisation list is a list of all Assistance dog or Assistance dog training providers which CATE is aware of who serve the UK. Any information that we could find we added to the list. In some cases the class information was not available and so it is labelled as 'Unkown' or 'Enquire'. Some organisations listed may not be taking in clients at this time. If we believe an organisation is completely inactive they will be removed from the list. CATE does not endorse or can confirm the legitamacy of any organisation on the list. It is meant to be used as a research resource and not a way of confirming the legitamacy of an organisation.</p>
+<p> We remove organisations from the list if they are inactive or dissolve. We may temporarily remove an organisation if there is major concerns around an organisation. The organisation will be put back on the list once the issue has been resolved. </p>
+
+<h2> Name </h2>
+<p> The Name Class is what it says on the tin and is the name of the organisation. If you click on the name, which is underlined, it will take you to the website of the organisation. </p>
+
+<h2> Classes </h2>
+<p>The list uses classes to describe an organisation and if they may be able to help you</p>
+<h3>Groups</h3>
+<p>The Group class is what group or coalition the organisation belongs too. In this class there are 6 different options; ADI,IGDF,ADUK,ADI Candidate,IAADP and N/A. Most organisations are not part of any group (N/A) and that does not mean that they are any less good than those that are. Sometimes the reason an organisation isn't part of a coalition is because they are too small. Additionally, just because they are a member of a coalition you should still research further into the organisation. Click on the coalition name to be taken to their website.</p>
+<a href="https://www.assistancedogsinternational.org "><h3>ADI</h3></a>
+<p> The ADI stands for Assistance Dog International which is based in the USA and is an international coalition of over 130 Assistance dog organisations. Most of these are based outside the UK with there being the most organisations in North America. The ADeu is the european chapter of the ADI, but as an ADeu organisation would be ADI we decided it would be best to not include it as a coalition group. The ADI has set standards that all programmes must be adhered too. Certain countries only recognised ADI or IGDF trained dogs, so if you are planning on travelling on a regular basis please research into the laws of other countries.</p>
+<a href="https://www.igdf.org.uk"><h3>IGDF</h3></a>
+<p>The IGDF or International Guide Dog Federation is an international coalition of over 95 guide dog programmes. Only programmes that train guide dogs can apply to be a part of the IGDF, so organisations that train other types of assistance dogs won't be IGDF. IGDF, like the ADI, has a set of standards that all programmes must adhere too. As their are no current IGDF applicants within the UK it is not an included coalition group</p>
+<a href="https://www.assistancedogs.org.uk>"><h3>ADUK</h3></a>
+<p>The ADUK or Assistance Dogs UK is a coalition of IGDF and ADI organisations which are based in the UK. Currently all organisations that are ADI and/or IGDF are members of the ADUK. The ADUK is the most commonly referred to coalition within the UK </p>
+<a href="https://assistancedogsinternational.org/members/candidate-program/"><h3>ADI Candidate</h3></a>
+<p> ADI Candidates are organisations that have applied to become an ADI organisation and have been accepted on the candidate programme. There is a set of standards that an organisation must adhere for a specified amount of time before becoming an ADI organisation and candidates are going through that process</p>
+<a href="https://www.iaadp.org"><h3>IAADP</h3></a>
+<p>The IAADP or International Association of Assistance Dog Partnerships is a group of Assistance dog organisations ,and individual with Assistance Dogs. The group has a set of standards members should adhere too,however, unlike the ADI or IGDF, the IAADP don't publish a list of organisations under their title as they don't vet their organisations as thoroughly as them. All IAADP orgs were listed as such on each programmes website.</p>
+<h3>N/A</h3>
+<p> Any organisation that is not part of a group </p>
+
+<h2>Type</h2>
+<p> CATE classifies organisations as 3 different types; Programme , Aided-Owner Train or Owner Train. Type describes the amount of training the handler is involved in. Prices vary from organisation to organisation. For more indepth information please see our specific page on the topic. </p>
+<h3>Programme</h3>
+<p> Programme trained dogs are dogs that are trained by the assistance dog provider residentially. The dog will come to the handler fully trained and ready to work. Programmes usually teach a handler how to interact, look after the dog and keep the standards of their training. Most programmes will supply the dog for you. Some programmes will introduce you to a dog when they are nearly fully trained whilst some will involve you since puppyhood.</p>
+<h3> Aided-Owner Train</h3>
+<p> There are many ways this type of training is described, we describe it as Aided-Owner training. This is when your own dog is trained to be an assistance dog with an organisation. With this type of training you are the main person training the dog and you will get training help straight from the organisation. For this type you will have more trainer input than owner training but less than programme.</p>
+<h3>Owner Train</h3>
+<p> We use Owner Train to describe an organisation which is a group of owner trained assistance dogs that act under an organisation. These dogs are trained by the owner with or without occasional trainer input. These organisations often require a log of training and/or pass a public access test before operating under their name.</p>
+
+<h2>Age</h2>
+<p> This is the age range that the organisation will help with. We decided against grouping age ranges as we found that age catergorise varied to much for it to be beneficial.</p>
+
+<h2> Disabilities </h2>
+<p> This is what disability that the organisation will train for. Sometimes there may be more specific eligibilty than what we specify (eg. Physical may be Wheelchair user only). If you have 2+ disabilities and multiple are listed in this catergory, you should check that they dual train across disabilities. </p>
+
+<h2> Dual Disabilities</h2>
+<p> This is what disabilities the organisation will train a dual assistance dog for as a secondary disability . This means that they will train for it only if you have one of the disabilities they primarily train for. Organisations may also be selective about secondary disabilities that the dog won't be trained for.</p>
+<p> Often we specify enquire as we are unsure what they will train for as a dual disability. Organisations within the ADUK often cross-train between organisations when a client has multiple disabilities. Members that may have this as an option are marked with 'Dual w/ ADUK'.
+
+<h2>Area</h2>
+<p> This is the area which an organisation serves. This can be as small as a few counties or as big as globally. </p>
+
+</div>
+
+</body>
+<footer>
+"Disclaimer: I'm not a professional, just an enthusiast and activist. This information is not meant to be as a replacement for legal advice nor used legally. The information is only meant to be used for awareness and activism and CATE are not responsible for any damages or harm that may come of this information."
+</footer>
+</html>

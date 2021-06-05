@@ -2,6 +2,7 @@
 <html lang="en">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 
@@ -87,19 +88,47 @@
   </header>
   <body>
     <div class="w3-container">
-    <h1>Links to external info/resources</h1>
 
-	    <p>ADUK FAQ - <a>https://www.assistancedogs.org.uk/faqs/</a> </p>
-<p>EHRC</p>
-  <p>-guide to buisnesses-https://www.equalityhumanrights.com/sites/default/files/assistance-dogs-a-guide-for-all-businesses.pdf </p>
-  <p>-guide for tourism-https://www.equalityhumanrights.com/sites/default/files/take-the-lead-welcoming-customers-with-assistance-dogs_0.pdf</p>
-    <p>TFL- Assistance dog video</p>
+	    <h1> External Resources and Information</h1>
+	    <p> These are links to resources made by other parties that you main find useful. As these are third parties we can not take responsibility for the links content, so please use them at your own risk. To each link, click on the destination and then click on the underlined resource.</p>
+	    <p> These resources come from non-assistance dog training/provider organisations such as coalitions, blogs and statutory bodies. </p> 
+	    <button onclick="myFunction('ADUK')" class="w3-btn w3-block w3-theme-l1 w3-left-align"> ADUK <i class="fa fa-caret-down></i> </button>
+		    <div id="ADUK" class="w3-container w3-hide">
+	 <a href="https://www.assistancedogs.org.uk/faqs/"> <p>FAQ for people looking for an assistance dog </p></a>
+		    </div>
+		    
+<button onclick="myFunction('EHRC')" class="w3-btn w3-block w3-theme-l4 w3-left-align"> EHRC <i class="fa fa-caret-down></i> </button>
+		    <div id="EHRC" class="w3-container w3-hide">
+			    <p> These guides act as a point of reference as they some of the only guides produced by a statutory body.</p>
+	 <a href="https://www.equalityhumanrights.com/sites/default/files/assistance-dogs-a-guide-for-all-businesses.pdf"> <p>Guide for Buisnesses </p></a>
+	<a href="https://www.equalityhumanrights.com/sites/default/files/take-the-lead-welcoming-customers-with-assistance-dogs_0.pdf"><p> Guide for those in the tourism sector eg.B&Bs </p></a>
+	</div>
+<button onclick="myFunction('TFL')" class="w3-btn w3-block w3-theme-l4 w3-left-align"> TFL <i class="fa fa-caret-down></i> </button>
+		    <div id="TFL" class="w3-container w3-hide">
+	<p> TFL have a page and video on the laws around assistance dogs and private hire and taxi vehicles </p>
+	< a href=""><p>Video on AD's and taxis/PH vehicles</p></a>
+	< a href=""><p>Page on AD's and taxis/PH vehicles</p></a>
+	</div>
+  
+	<h4> Organisation Resources </h4>
+	<p> These are resources that are made by organisations. While there may be organisation specific advice in some resources, there is still relevance for non-clients. We are not responsible for these resources nor how you use them.
 <p>Pawtected- Resources-https://www.pawtected.co.uk/Resources/<p>
 <p>Dog AID - What makes a good AD? https://img1.wsimg.com/blobby/go/88776772-96b3-4257-8a0e-65da2e51439f/downloads/What%20makes%20a%20good%20Assistance%20Dog.pdf?ver=1619444017367</p>
     <p>Tale of tails-http://taleoftails.co.uk/</p>
     <p>ADC-https://www.adcouncil.org.uk/</p>
     <p>ADI-https://assistancedogsinternational.org/resources/resources/</p>
 	  </div>
+
+<script>
+	function myFunction(id){
+		var ad = document.getElementById(id);
+		if(ad.className.indexOf("w3-show") == -1){
+			ad.className +="w3-show";
+		} else {
+			ad.className.replace("w3-show", "");
+		}
+	}
+	  </script>
   </body>
 <footer>
 	<hr>

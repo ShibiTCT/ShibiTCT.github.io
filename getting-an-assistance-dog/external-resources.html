@@ -43,7 +43,7 @@ body {
   transition: 0.4s;
 }
 
-.active, .accordions:hover {
+.actives, .accordions:hover {
   background-color: #ccc;
 }
 
@@ -677,7 +677,7 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("actives");
     var panels = this.nextElementSibling;
     if (panels.style.maxHeight) {
       panels.style.maxHeight = null;

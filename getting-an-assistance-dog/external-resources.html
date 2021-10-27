@@ -14,6 +14,8 @@
        
 <style>
 
+	
+	
 p {
 font-size:18px;
 line-height:1.6;
@@ -29,7 +31,33 @@ body {
 	
 	
     }
+.accordions {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 
+.active, .accordions:hover {
+  background-color: #ccc;
+}
+
+.panels {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+	
+	
+	
+	
+	
     .sm{
         display: none ;
         background-color: #263168;
@@ -624,14 +652,42 @@ document.getElementById("nav").style.width = "0";
 	<p>Here are some external resources that you may find useful when looking into getting an assistance dog.</p>
  <i> Please be aware we do not endorse any external websites/orgnisations and they do not endorse CATE. We do not have control over external sources, please use at your own risk </i>
 	<br>
-	<img src="../images/bcmis.png" style="width:50%; height:auto; float:right;"  alt=" A cartoon of a border collie tilting it's head with 3 question marks around it's head">
+<button class="accordions">Section 1</button>
+<div class="panels">
+  <p>Lorem ipsum...</p>
+</div>
 
+<button class="accordions">Section 2</button>
+<div class="panels">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordions">Section 3</button>
+<div class="panels">
+  <p>Lorem ipsum...</p>
+</div>
 	<br>
 	
    
             </div></div>
     
-    
+    <script>
+var acc = document.getElementsByClassName("accordions");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 	</body>
 <footer>
 				<div class="w3-container ">

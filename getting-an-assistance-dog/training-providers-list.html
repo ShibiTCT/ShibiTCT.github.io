@@ -32,6 +32,32 @@ body {
 	
     }
 
+.accordions {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.actives, .accordions:hover, .accordions:focus {
+  background-color: #ccc;
+}
+
+.panels {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  
+}
+	
+	
+	
     .sm{
         display: none ;
         background-color: #263168;
@@ -639,51 +665,47 @@ document.getElementById("nav").style.width = "0";
    
             </div></div>
     		<div class="w3-container ">
-					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Guide Dogs UK
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-       <p><b>Name:</b>Guide Dogs UK</p>     <p><b>Area Served: </b> UK </p>  <p><b>Dual-disabilities:</b> May dual with other ADUK organisations</p>
+	
+  <button class="accordions">Guide Dogs UK</button>
+<div class="panels">
+         <p><b>Name:</b>Guide Dogs UK</p>     <p><b>Area Served: </b> UK </p>  <p><b>Dual-disabilities:</b> May dual with other ADUK organisations</p>
 	      <p><b>Disabilities:</b> Visual Impairment</p> <p><b>Ages:</b>All</p>  <p><b>Group(s):</b> ADI/IGDF/ADUK</p> <p>Website</p>
 	      <p> Guide dogs UK provide fully-trained guide dogs to partially sighted and blind people. They will also provide guide dogs to children an youth and have no minimum age limit but will assess the child/youth individually. Guide dogs UK will also supply buddy dogs to children and companion dogs to adults. Buddy and companion dogs are career changed guide dogs and do not have the same rights as them. These career changed dogs are meant to provide emotional support in pet friendly places and at home. Guide dogs UK may be able to provide a dog to help with another disability in addition to visual impairment with the help of some of the other ADUK charities such as Hearing Dogs For Deaf People and Support Dogs. Guide dogs UK also offer a wide range of services besides guide dogs such as 'My Sighted Guide' and providing resources suited to visually impaired children </p> 
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
+
+</div>
+
+<button class="accordions">Section 2</button>
+<div class="panels">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordions">Section 3</button>
+<div class="panels">
+  <p>Lorem ipsum...</p>
+</div>
+	<br>
+	
+   
+            </div></div>
+    
+    <script>
+var acc = document.getElementsByClassName("accordions");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+   this.classList.toggle("actives");
+
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 </div>
 
 

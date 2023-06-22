@@ -1,25 +1,652 @@
-This is my portfolio of different media I have produced or been a part off
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="../images/catefav.png">
+	<title> Home | The Saber's Collection </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+       
+<style>
 
-Website development
+p {
+font-size:18px;
+line-height:1.6;
+max-width: 70ch;
+	}
+li {
+font-size:18px;
+line-height:1.6;
+max-width: 70ch;
+	}
+body {
+	font-family: 'Lato' , sans-serif;
+	
+	
+    }
 
-This site and the site it was built on was hand coded in HTML, CSS and Bootstrap 2.4.1 . Originally, it was in W3.CSS but this is no longer a part of the site. There are are JavaScript elements.
+    .sm{
+        display: none ;
+        background-color: #263168;
+       
+    }
+.column{
+	float:center;
+	padding:10%;
+	}
+div.relative{
+	position:relative;
+	left:20%;
+	}
+	.ic{width:5rem; height:auto; float:left; position:relative; z-index:1;}
+.pos {
+    position: ;
+    top:70px;
+ 
+}
+body{text-decoration: none;}
 
-I also developed the site CATE UK (<a href="https://www.cateuk.org.uk/"> https://www.cateuk.org.uk </a> ) and know how to use WordPress as this is what the site was built on
+	.adid{style="width:50%; height:auto"}
+.buttn{
+	background-color: inherit;
+	border:none;
+	color: #4054b4;
+	padding: 64px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	font-family: 'Lato' , sans-serif;
+	transition:0.3s;
+    }
+    .butto{
+	background-color: inherit;
+	border:none;
+	color: white;
+	padding: 20px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 4px 2px;
+	font-family: 'Lato' , sans-serif;
+	
+	}
+.dropdown {
+	float:center;
+	overflow:hidden;
+	display:inline-block !important;
+    }
 
-Social Media Management 
+    .dropdow {
+	float:center;
+	overflow:hidden;
+	display:block;
+    }
+	
+.buttn:hover, .buttn:hover, .buttn:focus {
+	background-color: #4054b4;
+	color: #ffffff;
+	}
 
-As part of CATE UK I have produced many social media posts. Here are some examples of my work:
+.dropdown-content {
+	display: none !important;
+	position: absolute;
+	background-color: #4054b4;
+	width:100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:2;
+	}
+.dropdown:hover .dropdown-content, .dropdown:focus {
+	display: block !important;
+    }
+    .dropdown-conten {
+	display: none;
+	position: absolute;
+	background-color: #4054b1;
+	width:100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	
+	}
+.dropdow:click .dropdown-conten {
+	display: block;
+	}
+.colum {
+	float: left;
+	width:25%;
+	padding: 10px;
+	background-color: #4054b4;
+	height: 250px;
+	}
+.colum a {
+	float: none;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: 'Lato' , sans-serif;
+	}
 
-Project Development
+.colum a:hover {
+	background-color: #4054b4;
+	
+	}
+	
+.col {
+	float: right;
+	width:25%;
+	padding: 10px;
+	background-color: inherit;
+	height: 250px;
+	}
+.col a {
+	float: none;
+	color: inherit;
+	padding: 16px;
+	text-decoration: none;
+	display: block !important;
+	text-align: left;
+	font-family: 'Lato' , sans-serif;
+	}
 
-I developed a successful advocacy project (CATE UK) and campaign (Give A Dog A Sign)
+.row:after { 
+	content: "";
+	display:table !important;
+	clear: both;
+    }
 
-Digital Art
+    
+    .open {
+        float:right;
+        color:#4054b4;
+        margin:1em 0 0 1em;
+        cursor:pointer;
+        display:block !important;
 
-Here is a variety of art I have produced
+    }
+    
+    .nav{
+        width: 0;
+        height: 100vh;
+        z-index: 3;
+        overflow: auto;
+        background-color: #4054b4;
+        transition: 0.3s;
+	position:fixed;
+    }
+    .nav a {
+        display: block;
+        color: #ffffff;
+        padding: 1em 0;
+        transition: 0.4s;
+    }
+    .close {
+        float: center;
+        margin: 1em 0 0 1em;
+    }
+.hid{
+    display:block;
+}
+.ste{
+    display:none;
+}
 
-Advocacy
+	
+@media screen and (min-width:1178px){
+  .navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+.ste{
+    display:inherit;
+}
+.dropdown:hover .dropdown-menu, .dropdown:focus {
+    display: block !important;
+    
+    }
+.navbar .megamenu{ padding: 10%; }
+.lour{
+	background-color:#d6e9ee ;
+	color: #4054b4;
+ 
+}
+	.ic{width:7rem; height:auto; float:left;position:relative; z-index:1;}
+	.adid{height:30%; float:right;}
+.tog{
+	
+	color:#4054b4;
+	background-color: inherit;
+    transition: 0.3s;
+    
+}
 
-In 2021,I appeared in the podcast In Another's View in the episode Stand Your Ground! 
+.nb {width: 20rem;
+height: 7rem;}
+.tog:hover, .tog:hover, .tog:focus {
+	background-color: #4054b4;
+    color: #ffffff;
+    text-decoration: none;
+	}
+	.ic{width:10%;!important}
+    .hid {
+        display:none;
+    }
+
+
+}
+
+}
+	</style>
+
+	
+	
+<header>
+
+
+	<a href="../">
+		
+	</a>
+        <div class="wrapper hid">
+        
+            <div class="nav hid" id="nav">
+                <a href="javascript:void(0)" class="close hid" onclick="closeNav()" style="color:white;opacity:80%;padding:1em 1em 0em 0em;"><i class="bi bi-x"></i>
+</a>
+    <br>
+                
+	<a href="javascript:void(0)"class="butto dropdow " onclick="myFunctio() ">About    &emsp; <i class="bi bi-chevron-down"></i></a><div class="sm text-center" id="sm">
+	
+			<a href=""> General Information </a>
+			<a href=""> Is An Assistance Dog Right For You? </a>
+			<a href="l">  </a>
+			
+		
+			<a href="../getting-an-assistance-dog/training-options.html"> Training Options </a>
+			<a href="../getting-an-assistance-dog/training-providers-list.html"> Training Providers List </a>
+			<a href="../getting-an-assistance-dog/organisation-groups.html"> Organisation Groups </a>
+			
+			
+			<a href="../getting-an-assistance-dog/usa-vs-uk.html"> USA vs UK </a>
+			<a href="../getting-an-assistance-dog/glossary.html"> Glossary </a>
+			<a href="../getting-an-assistance-dog/external-resources.html"> External Resources </a>
+			
+    </div>
+    <a href="javascript:void(0)"class="butto dropdow" onclick="myFuncti()"> Work &emsp; <i class="bi bi-chevron-down"></i></a><div class="sm text-center" id="sme">
+	
+        <a href=""> Assistance Dogs </a>
+        <a href="">Advocacy </a>
+        <a href=""> Portfolio </a>
+        
+        
+</div>
+		  
+<a href="javascript:void(0)"class="butto dropdow" onclick="myFunction()"> Contact &emsp; <i class="bi bi-chevron-down"></i></a><div class="sm text-center" id="s">
+	
+  
+    
+</div>  <!--
+<a href="javascript:void(0)"class="butto dropdow" onclick="myFunc()"> Businesses/Service Providers &emsp; <i class="bi bi-chevron-down"></i></a><div class="sm text-center" id="smell">
+	
+    <a href="../businesses-and-service-providers/general-information.html"> General Information </a>
+    <a href="../businesses-and-service-providers/misconceptions.html"> Misconceptions </a>
+    <a href="../businesses-and-service-providers/give-a-dog-a-sign.html"> Give a dog a sign </a>
+ 
+    
+</div>
+<a href="javascript:void(0)"class="butto dropdow" onclick="myFunct()" > About &emsp; <i class="bi bi-chevron-down"></i></a><div class="sm text-center" id="smel">
+	
+    <a href="../about/about-cate.html"> About CATE </a>
+    <a href="../about/sub-projects.html"> Sub-Projects </a>
+    <a href="../about/faq.html"> FAQ </a>
+    <a href="../about/contact.html"> Contact </a>
+    
+    
+</div>
+	-->
+	
+    </div><span id="open" class="open hid" onclick="openNav()"style="padding:0em 1em 1em 1em;">&#9776</span>
+</div> 
+    
+
+</div>
+<script> 
+function myFunctio() {
+  var x = document.getElementById("sm");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunction() {
+  var x = document.getElementById("s");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFuncti() {
+  var x = document.getElementById("sme");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunct() {
+  var x = document.getElementById("smel");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunc() {
+  var x = document.getElementById("smell");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function openNav() {
+document.getElementById("open").style.display = "none";
+document.getElementById("nav").style.width = "100%";
+}
+function closeNav(){
+
+document.getElementById("open").style.display = "block";
+document.getElementById("nav").style.width = "0";
+}
+    </script>
+  
+  
+
+                
+                    <div class="ste">
+                <br>
+                    
+                    <nav class="navbar navbar-expand-lg   ">
+                        <div class="container-fluid ">
+                        
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="main_nav">
+                                <ul class="navbar-nav">
+                                   
+                                    <li class="nav-item dropdown has-megamenu">
+                                        <a class="nav-link dropdown-toggle tog buttn nb " href="../getting-an-assistance-dog/" data-bs-toggle="dropdown" > About  </a>
+                                  <!--      <div class="dropdown-menu megamenu lour  pos" role="menu">
+                                            <div class="row g-3 lour ">
+                                                <div class="col-lg-3 col-3 lour ">
+                                                    <div class="col-megamenu lour ">
+                                                        <br>
+                                                        <br>
+                                                        <ul class="list-unstyled lour">
+                                                            <li><a href="../getting-an-assistance-dog/general-information.html">General Information</a></li>
+                                                        
+                                                        </ul>
+                                                    </div>  
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="col-megamenu">
+                                                        <br>
+                                                        <br>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="../getting-an-assistance-dog/training-options.html">Training Options</a></li>
+                                                            
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="col-megamenu">
+                                                        <br><br>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="../getting-an-assistance-dog/usa-vs-uk.html">USA vs UK</a></li>
+                                                      
+                                                           
+                                                        </ul>
+                                                    </div>  
+                                                </div>    
+                                                
+                                                    
+                                        
+						    </li>
+                                    <li class="nav-item dropdown has-megamenu">
+                                        <a class="nav-link dropdown-toggle tog buttn nb " href="../current-partnerships/" data-bs-toggle="dropdown" > Current Partnerships  </a>
+                                        <div class="dropdown-menu megamenu lour  pos" role="menu">
+                                            <div class="row g-3 lour ">
+                                                <div class="col-lg-3 col-3 lour ">
+                                                    <div class="col-megamenu lour ">
+                                                        <br>
+                                                        <br>
+                                                        <ul class="list-unstyled lour">
+                                                            <li><a href="../current-partnerships/news.html">News</a></li>
+                                                            
+                                                        </ul>
+                                                    </div>  
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="col-megamenu">
+                                                        <br>
+                                                        <br>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="../current-partnerships/organisations.html">Organisation</a></li>
+                                                          
+                                                            
+                                                        </ul>
+                                                    </div>  
+                                                </div>
+                                                <div class="col-lg-3 col-3">
+                                                    <div class="col-megamenu">
+                                                        <br><br>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="../current-partnerships/external-resources.html">External Resource</a></li>
+                                                          
+                                                        </ul>
+                                                    </div> 
+                                                </div>    
+                                                <li class="nav-item dropdown has-megamenu">
+                                                    <a class="nav-link dropdown-toggle tog buttn nb " href="../general-public/" data-bs-toggle="dropdown" > General Public  </a>
+                                                    <div class="dropdown-menu megamenu lour  pos" role="menu">
+                                                        <div class="row g-3 lour ">
+                                                            <div class="col-lg-3 col-3 lour ">
+                                                                <div class="col-megamenu lour ">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled lour">
+                                                                        <li><a href="../general-public/general-information.html">General Information</a></li>
+                                                                        
+                                                                        <br>
+                                                                        <li><a href="../general-public/misconceptions.html">Misconceptions</a></li>
+                                                                        <br>
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled">
+                                                                        <li><a href="../general-public/interacting-with-an-assistance-dog.html">Interacting with an assistance dog</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br><br>
+                                                                    <ul class="list-unstyled">
+                                                                        <li><a href="../general-public/resources-for-parents-carers-teachers.html">Resources for parents/carers/teachers</a></li>
+                                                                        <br>                                                                        
+                                                                        <li><a href="../general-public/external-resources.html">External Resources</a></li>
+                                                                        <br>
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>    
+                                                            
+                                                                
+                                                    
+                                                </li>
+                                            <!--    <li class="nav-item dropdown has-megamenu">
+                                                    <a class="nav-link dropdown-toggle tog buttn nb " href="../businesses-service-providers/" data-bs-toggle="dropdown" > Businesses/Service Providers  </a>
+                                                    <div class="dropdown-menu megamenu lour  pos" role="menu">
+                                                        <div class="row g-3 lour ">
+                                                            <div class="col-lg-3 col-3 lour ">
+                                                                <div class="col-megamenu lour ">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled lour">
+                                                                        <li><a href="../businesses-and-service-providers/general-information.html">General Information</a></li>
+                                                                       
+                                                                        <br>
+                                                                       
+                                                                        <br>
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled">
+									<li><a href="../businesses-and-service-providers/misconceptions.html">Misconceptions</a></li>
+                                                                       
+                                                                       
+                                                                        
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br><br>
+                                                                    <ul class="list-unstyled">
+                                                                        <li><a href="../businesses-and-service-providers/give-a-dog-a-sign.html">Give a dog a sign</a></li>
+                                                                       
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>    
+                                                            
+                                                                
+                                                    
+                                                </li>
+                                                <li class="nav-item dropdown has-megamenu">
+                                                    <a class="nav-link dropdown-toggle tog buttn nb" href="../about/" data-bs-toggle="dropdown" >About  </a>
+                                                    <div class="dropdown-menu megamenu lour  pos" role="menu">
+                                                        <div class="row g-3 lour ">
+                                                            <div class="col-lg-3 col-3 lour ">
+                                                                <div class="col-megamenu lour ">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled lour">
+                                                                        <li><a href="../about/about-cate.html">About CATE</a></li>
+                                                                        <br>
+                                                                        <li><a href="../about/sub-projects.html">Sub-Projects</a></li>
+                                                                       
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br>
+                                                                    <br>
+                                                                    <ul class="list-unstyled">
+                                                                        <li><a href="../about/faq.html">FAQ</a></li>
+                                                                       
+                                                                        
+                                                                    </ul>
+                                                                </div> 
+                                                            </div>
+                                                            <div class="col-lg-3 col-3">
+                                                                <div class="col-megamenu">
+                                                                    <br><br>
+                                                                    <ul class="list-unstyled">
+                                                                        <li><a href="../about/contact.html">Contact</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>  
+                                                            </div>    
+                                                            
+                                                                
+                                                    
+                                                </li>
+                                                        </ul>
+                                                    </div>  -->
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div> 
+                        </div> 
+                        </nav></div></div></div></div>
+                      
+        </header>
+        
+      
+  <body>
+	<div class="container" style="height:5rem;"></div>
+	<div class=" text-center" style="padding:15%; background-color: #4054b4; width:100%; ">
+	<h1 style="color:white; font-size: 300% !important;">My Portfolio</h1>
+	  </div> </div>
+		<div class="column">
+<div class="w3-container">
+      
+				<div class="w3-container ">     </html><p>This is my portfolio of different media I have produced or been a part off</p>
+
+<h1>Website development</h1>
+
+<p>This site and the site it was built on was hand coded in HTML, CSS and Bootstrap 2.4.1 . Originally, it was in W3.CSS but this is no longer a part of the site. There are are JavaScript elements.</p>
+
+<p>I also developed the site CATE UK (<a href="https://www.cateuk.org.uk/"> https://www.cateuk.org.uk </a> ) and know how to use WordPress as this is what the site was built on. Also through this I have experience with Google Search Console.</p>
+
+<h1>Social Media Management </h1>
+
+<p>As part of CATE UK I have produced many social media posts. Here are some examples of my work:</p>
+
+<h1>Project Development</h1>h1>
+
+<p>I developed a campaign (Give A Dog A Sign) which has accumalated over 150 likes and a successful advocacy project (CATE UK) whose website averages 349 visitors a month. </p>
+
+
+
+<h1>Advocacy
+</h1>
+<p>In 2021,I appeared in the podcast In Another's View in the episode Stand Your Ground! </p>
 <iframe src="https://www.listennotes.com/podcasts/in-anothers-view/stand-your-ground-tJWaRpkirAn/embed/" height="170px" width="100%" style="width: 1px; min-width: 100%;" loading="lazy" frameborder="0" scrolling="no"></iframe>
+
+<p>In October 2022, I spoke at the Hertfordshire Partnership Foundation NHS Trust's Recovery conference talking about how my assistance dog in training was helping me with my disabilities. You can find this talk below</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jwrgEFd2sPc?start=6775" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>In May 2023, I became a commitee member for the AT/452 BSI committee involved with the development of European Standards for Assistance Dogs.
+
+<p>In June 2023, I was told I had been selected as a National Winner for the BBC Young Reporter Competition 2023 with my entry on owner training my own assistance dog and the lack of awareness around assitance dogs.</p>
+<h1>Digital Art</h1>
+
+<p>Here is a variety of art I have produced</p>
+	
+   
+            </div></div>
+    
+    
+<footer>
+<br>
+	
+	</body>
+	<hr>
+	
+	<div class="container text-center" style="display:inline-block; width:100%;"><a href="../PP.html"> Privacy Policy </a>|
+	<a href="../TOS.html"> Terms Of Service </a>|
+        <a href="../Sitemap.html"> Sitemap</a></div> <br><div class="text-center">  	<p> Looking for CATE UK, the assistance dog information hub? It's moved! </p> <a href="https://cateuk.org.uk/"><button> Go To New Site </button></a>
+
+	</footer>
 
